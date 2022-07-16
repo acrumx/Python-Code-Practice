@@ -1,0 +1,15 @@
+def sum_str(a, b):
+    ma = ''
+    if a == '' and b =='':
+        a = '0'
+        b = '0'
+        ma = int(a) + int(b)
+    elif a == '':
+        a = '0'
+        ma = int(a) + int(b)
+    elif b == '':
+        b = '0'
+        ma = int(a) + int(b)
+    else:
+        ma = int(a) + int(b)
+    return str(ma)
