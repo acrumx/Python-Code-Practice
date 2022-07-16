@@ -1,0 +1,5 @@
+def binary_array_to_number(arr):
+    num = 0
+    for b in arr:
+        num = 2 * num + b
+    return num
