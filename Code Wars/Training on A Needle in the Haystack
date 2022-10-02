@@ -1,0 +1,9 @@
+def find_needle(haystack):
+    targetWord = "needle"
+    for x in haystack:
+        if x == targetWord: 
+          #  print(f"found the needle at position {haystack.index('needle')}")
+            b = haystack.index('needle')
+            print(b)
+            message = f"found the needle at position {b}"
+            return message
