@@ -1,0 +1,6 @@
+def maps(a):
+    bi = []
+    for i in a:
+        index = a.index(i)
+        bi.append(i * 2) 
+    return bi
