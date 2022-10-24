@@ -1,0 +1,31 @@
+# Link to the kata: https://www.codewars.com/kata/5266876b8f4bf2da9b000362/
+
+def likes(names):
+    length = len(names)
+    # if count of items in names is 1, return this f string
+    if length == 1:
+        name1 = names[0]
+        return f"{name1} likes this"
+    
+    # if there are two items in the list
+    elif length == 2:
+        name1 = names[0]
+        name2 = names[1]
+        return f"{name1} and {name2} like this"
+    
+    # if there are three items in the list
+    elif length == 3:
+        name1 = names[0]
+        name2 = names[1]
+        name3 = names[2]
+        return f"{name1}, {name2} and {name3} like this"
+    
+    # if there are four or more items in the list
+    elif length >= 4:
+        name1 = names[0]
+        name2 = names[1]
+        return f"{name1}, {name2} and {(length - 2)} others like this"
+    
+    # if there are no items in the list
+    elif length == 0:
+        return f"no one likes this"
