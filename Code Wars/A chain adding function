@@ -1,0 +1,12 @@
+# Link to the kata: https://www.codewars.com/kata/539a0e4d85e3425cb0000a88/
+# 5 kyu
+
+def add(n):
+    iz = 0
+    temp1 = 0
+    while n:
+        if iz == 0:
+            iz = 1
+            temp1 = n
+        else:
+            temp1 = temp1 + n
