@@ -1,0 +1,7 @@
+'''
+capitalize("tim") # "Tim"
+capitalize("matt") # "Matt"
+'''
+# I wrote the code below 
+def capitalize(x):
+    return x.capitalize()
