@@ -1,5 +1,3 @@
 def contains_purple(*args):
-    if args.count('purple') < 1:
-        return False
-    else:
-        return True
+    if args.count('purple') < 1: return False
+    return True
