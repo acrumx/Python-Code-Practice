@@ -1,0 +1,10 @@
+# Link to the kata: https://www.codewars.com/kata/5513795bd3fafb56c200049e/train/python
+# 8 kyu
+def count_by(x, n):
+    """
+    Return a sequence of numbers counting by `x` `n` times.
+    """
+    array = []
+    for r in range(1,n+1):
+        array.append(r*x)
+    return array
