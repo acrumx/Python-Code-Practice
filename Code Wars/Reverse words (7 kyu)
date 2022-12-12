@@ -1,0 +1,7 @@
+# Link to the kata: https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/
+# 7 kyu
+import re
+def reverse_words(text):
+    newer = re.split(" ", text)
+    [i[::-1] for i in newer]
+    return (' '.join([i[::-1] for i in newer]))
