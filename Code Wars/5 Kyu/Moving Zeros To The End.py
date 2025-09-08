@@ -1,4 +1,5 @@
 # Link to the kata: https://www.codewars.com/kata/52597aa56021e91c93000cb0/train/python
+# 5 Kyu
 def move_zeros(lst):
     count = lst.count(0)
     while count > 0:
