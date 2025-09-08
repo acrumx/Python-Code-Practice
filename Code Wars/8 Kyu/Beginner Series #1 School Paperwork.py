@@ -1,5 +1,5 @@
 # Link to the kata: https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/train/python
-
+# 8 Kyu
 def paperwork(n, m):
     if n <= 0 or m <= 0: 
         return 0
